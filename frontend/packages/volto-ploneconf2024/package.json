@@ -29,10 +29,14 @@
   "dependencies": {},
   "peerDependencies": {
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "@plonegovbr/volto-code-block": "*"
   },
   "devDependencies": {
     "@plone/scripts": "^3.6.1",
     "release-it": "^17.1.1"
-  }
+  },
+  "addons": [
+    "@plonegovbr/volto-code-block"
+  ]
 }
